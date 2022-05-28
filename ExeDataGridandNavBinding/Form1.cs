@@ -36,7 +36,7 @@ namespace ExeDataGridandNavBinding
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (txtUser.Text=="isa" && txtPassword.Text=="" && validation1.Checked)
+            if (txtUser.Text=="isajaisyullah" && txtPassword.Text=="password" && validation1.Checked)
             {
                 new Form2().Show();
                 this.Hide();

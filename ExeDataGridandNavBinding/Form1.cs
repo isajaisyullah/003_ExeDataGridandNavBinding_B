@@ -41,7 +41,7 @@ namespace ExeDataGridandNavBinding
                 new Form2().Show();
                 this.Hide();
             }
-            else if (txtUser.Text == "isajaisyullah" && txtPassword.Text == "passwordISA" && !validation1.Checked)
+            else if (txtUser.Text == "isajaisyullah" && txtPassword.Text == "password" && !validation1.Checked)
             {
                 MessageBox.Show("Accept Term & Condition to continue!");
             }
